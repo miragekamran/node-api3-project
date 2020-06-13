@@ -17,5 +17,5 @@ server.use(logger('long'))
 server.use(userRouter);
 
 server.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+    console.log(`Server running at http://localhost:${port}`);
 });
